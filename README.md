@@ -87,6 +87,7 @@ DeepSpeech Base Model: Most datapoints classified as "Low Accuracy" in all 3 met
 Trained Model: Most datapoints classified as "Medium & High Accuracy" in all 3 metrics
 
 The above depiction proves that the trained model performs much better for Indian Accent Speech Recognition compared to DeepSpeech model.
+
 **Conclusion**
 
 'Cepstral Analysis' separate out the accent components in speech signals, while doing Feature Extraction (MFCC) in Traditional ASR. In state-of-the-art Deep Neural Networks, features are intrinsically learnt. Hence, we can transfer learn a pre-trained model with mutiple accents, to let the model learn the accent peculiarities on its own.
