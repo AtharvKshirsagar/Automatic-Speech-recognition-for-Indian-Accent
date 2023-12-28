@@ -2,8 +2,6 @@ Indian Accent Speech Recognition
 
 Traditional ASR (Signal Analysis, MFCC, DTW, HMM & Language Modelling) and DNNs (Custom Models & Baidu DeepSpeech Model) on Indian Accent Speech
 
-<< Uploaded the pre-trained model owing to requests >>
-The generated trie file is uploaded to pre-trained-models directory. So you can skip the KenLM Toolkit step.
 
 
 
@@ -21,23 +19,20 @@ Contents:
     vui_notebook.ipynb: DNN Custom Models and Comparative Analysis to make a custom Speech Recognition model.
     DeepSpeech_Training.ipynb: Retraining of DeepSpeech Model with Indian Accent Voice Data.
 
-Email me at 210050025@iitb.ac.in if you want to know about the code and data source.
+**Email me at 210050025@iitb.ac.in if you want to know about the code and data source.**
 
 You can also record your own audio or let the ebook reader apps read a document. But I found it is insufficient to train such a heavy model. Then I requested support of IIT Madras, Speech Lab who kindly granted access to their Voice database.
-***
-DNN Custom Models for Speech Recognition:
-Model 1: CNN + RNN + TimeDistributed Dense
 
-Model 2: Deeper RNN + TimeDistributed Dense
+**DNN Custom Models for Speech Recognition:**
+**Model 1: CNN + RNN + TimeDistributed Dense**
 
-Comparison: Training Loss & Validation Loss of Model 1 (CNN) & Model 2 (RNN)
+**Model 2: Deeper RNN + TimeDistributed Dense**
 
-Model 3: Pooled CNN+Deep Bidirectional RNN +Time-distributed Dense
-***
+**Comparison: Training Loss & Validation Loss of Model 1 (CNN) & Model 2 (RNN)**
 
-***
-DeepSpeech Model Training:
-***
+**Model 3: Pooled CNN+Deep Bidirectional RNN +Time-distributed Dense**
+
+**DeepSpeech Model Training:**
 These are the high level steps we gonna do:
 
     Get a pre-trained model.
@@ -92,7 +87,7 @@ DeepSpeech Base Model: Most datapoints classified as "Low Accuracy" in all 3 met
 Trained Model: Most datapoints classified as "Medium & High Accuracy" in all 3 metrics
 
 The above depiction proves that the trained model performs much better for Indian Accent Speech Recognition compared to DeepSpeech model.
-Conclusion
+**Conclusion**
 
 'Cepstral Analysis' separate out the accent components in speech signals, while doing Feature Extraction (MFCC) in Traditional ASR. In state-of-the-art Deep Neural Networks, features are intrinsically learnt. Hence, we can transfer learn a pre-trained model with mutiple accents, to let the model learn the accent peculiarities on its own.
 
