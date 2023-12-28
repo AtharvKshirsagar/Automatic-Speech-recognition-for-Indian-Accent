@@ -24,7 +24,7 @@ Contents:
 Email me at 210050025@iitb.ac.in if you want to know about the code and data source.
 
 You can also record your own audio or let the ebook reader apps read a document. But I found it is insufficient to train such a heavy model. Then I requested support of IIT Madras, Speech Lab who kindly granted access to their Voice database.
-'''
+***
 DNN Custom Models for Speech Recognition:
 Model 1: CNN + RNN + TimeDistributed Dense
 
@@ -33,10 +33,11 @@ Model 2: Deeper RNN + TimeDistributed Dense
 Comparison: Training Loss & Validation Loss of Model 1 (CNN) & Model 2 (RNN)
 
 Model 3: Pooled CNN+Deep Bidirectional RNN +Time-distributed Dense
-'''
-'''
+***
+
+***
 DeepSpeech Model Training:
-'''
+***
 These are the high level steps we gonna do:
 
     Get a pre-trained model.
